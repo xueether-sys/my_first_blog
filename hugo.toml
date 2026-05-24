@@ -1,0 +1,9 @@
+baseURL = "https://blog.2015717.xyz/"
+languageCode = "zh-cn"
+title = "我的个人记录"
+theme = "hugo-bearblog"
+
+[params]
+description = "记录学习、项目、踩坑和日常进度。"
+title = "我的个人记录"
+hideMadeWithLine = true
