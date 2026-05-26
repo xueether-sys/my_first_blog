@@ -1,5 +1,6 @@
 +++
 title = "首页"
+slug = "/"
 +++
 
 你好，我是 xueether

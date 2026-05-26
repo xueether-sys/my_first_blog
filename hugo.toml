@@ -1,9 +1,26 @@
 baseURL = "https://blog.2015717.xyz/"
+theme = "hugo-bearblog"
 languageCode = "zh-cn"
 title = "我的个人记录"
-theme = "hugo-bearblog"
+author = "xueether"
 
 [params]
-description = "记录学习、项目、踩坑和日常进度。"
-title = "我的个人记录"
-hideMadeWithLine = true
+    mainSections = ["posts"]
+    description = "记录学习、项目、踩坑和日常进度。"
+    title = "我的个人记录"
+    hideMadeWithLine = true
+
+[[menus.main]]
+name = "主页"
+pageRef = "/"
+weight = 10
+
+[[menus.main]]
+name = "关于"
+pageRef = "/about/"
+weight = 20
+
+[[menus.main]]
+name = "记录"
+pageRef = "/posts/"
+weight = 30
